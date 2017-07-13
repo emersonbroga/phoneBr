@@ -3,8 +3,8 @@
 
       $.fn.phoneBr.defaults = {
         numberSeparator: '-',
-        areaCodeSparatorStart: '(',
-        areaCodeSparatorEnd: ')',
+        areaCodeSeparatorStart: '(',
+        areaCodeSeparatorEnd: ')',
       };
       options = $.extend({}, $.fn.phoneBr.defaults, options);
       
@@ -49,9 +49,9 @@
         if (len === 10 || len === 11) {
           
           formatedPhone = [
-            options.areaCodeSparatorStart, 
+            options.areaCodeSeparatorStart, 
             formatedPhone.substring(0, 2),
-            options.areaCodeSparatorEnd,
+            options.areaCodeSeparatorEnd,
             formatedPhone.substring(2)
           ].join('');
 
