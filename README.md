@@ -1,6 +1,6 @@
-#phoneBr
+# phoneBr
 
-#Usage:
+# Usage:
 
 ```
 $('.phone').phoneBr();
